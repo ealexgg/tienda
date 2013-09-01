@@ -39,7 +39,8 @@ Inicio
 						lee (op1)
 							caso(op1)
 								(op1=1)
-									escribe("comprarás HP, tiene un costo de $12,000, ¿Concretas la compra? 1) Sí  2) no")
+									escribe("comprarás HP, tiene un costo de $12,000, ¿Concretas la compra?")
+									escribe("1)Sí        2)No")
 									lee(compra)
 									si(compra=1) entonces
 										total<-- total+12000
@@ -47,7 +48,8 @@ Inicio
 										continue
 									fin si
 								(op1=2)	
-									escribe("comprarás Vaio, tiene un costo de $7,520 ¿lo compras? 1)si 2) no")
+									escribe("comprarás Vaio, tiene un costo de $7,520 ¿lo compras?")
+									escribe("1)Sí        2)No")
 									lee(compra)
 									si(compra=1) entonces
 										total<--total+7520
@@ -55,7 +57,8 @@ Inicio
 										continue
 									fin si	
 								(op1=3)	
-									escribe("comprarás Apple, tiene un costo de $18,000 ¿Lo compras? 1) Sí 2) No")
+									escribe("comprarás Apple, tiene un costo de $18,000 ¿Lo compras?")
+									escribe("1)Sí        2)No")
 									lee(Compra)
 									si(compra=1) entonces
 										total<--total+18000
@@ -71,7 +74,8 @@ Inicio
 						lee (op1)
 							caso (op1)
 								(op1=1)
-									escribe("Comprarás HP, tiene un costo de $3,240 ¿La compras? 1)Sí	2) No ") 
+									escribe("Comprarás HP, tiene un costo de $3,240 ¿La compras?") 
+									escribe("1)Sí        2)No")
 									lee(compra)
 									si (Compra=1) entonces
 										total<--total+3240
@@ -79,7 +83,8 @@ Inicio
 										continue
 									fin si	
 								(op1=2)	
-									Escribe("Comprarás Epson, tiene un costo de $1,350 ¿La compras? 1)Sí      2) No ")
+									Escribe("Comprarás Epson, tiene un costo de $1,350 ¿La compras?")
+									escribe("1)Sí        2)No")
 									lee(compra)
 									Si(Compra=1) entonces
 										total<--total+1350
@@ -87,7 +92,8 @@ Inicio
 										continue
 									fin si
 								(op1=3)	
-									escribe("Comprarás Samsung, tiene un costo de "1,200 ¿La comprarás? 1)Sí        2)No")
+									escribe("Comprarás Samsung, tiene un costo de "1,200 ¿La comprarás?")
+									escribe("1)Sí        2)No")
 									lee (compra)
 									si(compra=1) entonces
 										total<--total+1200
@@ -103,7 +109,8 @@ Inicio
 						lee (op1)
 							caso (op1)
 								(op1=1)
-									escribe("Comprarás HP, tiene un costo de $2,240 ¿La compras? 1)Sí	2) No ") 
+									escribe("Comprarás HP, tiene un costo de $2,240 ¿La compras?") 
+									escribe("1)Sí        2)No")
 									lee(compra)
 									si (Compra=1) entonces
 										total<--total+2240
@@ -111,7 +118,8 @@ Inicio
 										continue
 									fin si	
 								(op1=2)	
-									Escribe("Comprarás Epson, tiene un costo de $950 ¿La compras? 1)Sí      2) No ")
+									Escribe("Comprarás Epson, tiene un costo de $950 ¿La compras?")
+									escribe("1)Sí        2)No")
 									lee(compra)
 									Si(Compra=1) entonces
 										total<--total+950
@@ -119,7 +127,8 @@ Inicio
 										continue
 									fin si
 								(op1=3)	
-									escribe("Comprarás Samsung, tiene un costo de "1,250 ¿La comprarás? 1)Sí        2)No")
+									escribe("Comprarás Samsung, tiene un costo de "1,250 ¿La comprarás?")
+									escribe("1)Sí        2)No")
 									lee (compra)
 									si(compra=1) entonces
 										total<--total+1250
@@ -135,7 +144,8 @@ Inicio
 						lee (op1)
 							caso (op1)
 								(op1=1)
-									escribe("Comprarás HP, tiene un costo de $6,210 ¿La compras? 1)Sí	2) No ") 
+									escribe("Comprarás HP, tiene un costo de $6,210 ¿La compras?") 
+									escribe("1)Sí        2)No")
 									lee(compra)
 									si (Compra=1) entonces
 										total<--total+6210
@@ -143,7 +153,8 @@ Inicio
 										continue
 									fin si	
 								(op1=2)	
-									Escribe("Comprarás Epson, tiene un costo de $9,500 ¿La compras? 1)Sí      2) No ")
+									Escribe("Comprarás Epson, tiene un costo de $9,500 ¿La compras?")
+									escribe("1)Sí        2)No")
 									lee(compra)
 									Si(Compra=1) entonces
 										total<--total+9500
@@ -151,7 +162,8 @@ Inicio
 										continue
 									fin si
 								(op1=3)	
-									escribe("Comprarás Samsung, tiene un costo de "10,250 ¿La comprarás? 1)Sí        2)No")
+									escribe("Comprarás Samsung, tiene un costo de "10,250 ¿La comprarás? ")
+									escribe("1)Sí        2)No")
 									lee (compra)
 									si(compra=1) entonces
 										total<--total+10250
