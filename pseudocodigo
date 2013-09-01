@@ -21,6 +21,9 @@ Inicio
 	variables op,op1, x, compra: tipo entero
 	total: tipo real
 	x<--1
+	op<--0
+	op1<--0
+	compra<--0
 		escribe ("Programa de una tienda")
 		mientras (x<>0) 
 			escribe ("selecciona una opción")
