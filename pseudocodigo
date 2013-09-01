@@ -1,0 +1,36 @@
+Pseudocódigo tienda
+Inicio
+	variables op,op1, x, compra: tipo entero
+	total: tipo real
+		escribe ("Programa de una tienda")
+		mientras (x<>0) 
+			escribe ("selecciona una opción")
+			escribe ("1) Computadoras")
+			escribe ("2) impresoras")
+			escribe ("3)Scanner's")
+			escribe ("4) Plotter's")
+			escribe ("Escribe 0) Salir")
+			lee (op)
+				caso (op)
+					(op=1):
+						escribe (" Computadoras")
+						escribe ("1) HP")
+						escribe ("2) Vaio")
+						escribe ("3) Apple")
+						lee (op1)
+							caso(op1)
+								(op1=1)
+									escribe("compraste HP, tiene un costo de $12,000, ¿Concretas la compra? 1) Sí  2) no")
+									lee(compra)
+									si(compra=1) entonces
+										total<-- total+12000
+										otro
+										x<--10
+									fin si
+								(op1=2)	
+									escribe("compraste Vaio, tiene un costo de $7,520 ¿lo compras? 1)si 2) no")
+
+		fin mientras
+
+
+Fin
