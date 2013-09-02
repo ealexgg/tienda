@@ -182,5 +182,5 @@ Inicio
 				fin caso
 		fin mientras
 
-		escribe ("Total a pagar", total)
+		escribe ("Total a pagar:", total)
 Fin
